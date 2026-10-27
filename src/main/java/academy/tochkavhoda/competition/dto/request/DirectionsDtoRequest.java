@@ -1,0 +1,18 @@
+package academy.tochkavhoda.competition.dto.request;
+
+import java.util.List;
+
+public class DirectionsDtoRequest {
+    private List<String> directions;
+
+    public DirectionsDtoRequest() {
+    }
+
+    public DirectionsDtoRequest(List<String> directions) {
+        this.directions = directions;
+    }
+
+    public List<String> getDirections() {
+        return directions;
+    }
+}
